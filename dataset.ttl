@@ -1,0 +1,104 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns0: <http://www.w3.org/2006/vcard/> .
+@prefix ns1: <https://data.overheid.nl/dcat.rdf#> .
+@prefix ns2: <http://data.europa.eu/r5r/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+
+<https://data.overheid.nl/dataset/31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting>
+  a dcat:Dataset ;
+  dcat:keyword "Hoogwaardige dataset - EU"@nl, "HVD"@nl ;
+  dc:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  dcat:contactPoint [
+    a <http://www.w3.org/2006/vcard/Kind> ;
+    ns0:fn "Centraal Bureau voor de Statistiek"@nl ;
+    ns0:email "mailto:infoservice@cbs.nl"
+  ] ;
+  dc:language <http://publications.europa.eu/resource/authority/language/NLD> ;
+  dc:description """Deze tabel bevat cijfers over de onderwijsrichting van het hoogst
+      behaald onderwijsniveau van de bevolking van 15 tot 90 jaar in Nederland, met uitzondering van
+      personen in inrichtingen, instellingen en tehuizen (institutionele bevolking).
+      De cijfers zijn afkomstig van de Enquête Beroepsbevolking (EBB).
+
+      Gegevens beschikbaar vanaf: 2013
+
+      Status van de cijfers:
+      De cijfers in deze tabel zijn definitief.
+
+      Wijzigingen per 14 augustus 2025:
+      De cijfers over het 2e kwartaal 2025 zijn toegevoegd.
+
+      Wijzigingen per 15 november 2022:
+      Van een aantal respondenten kon alsnog de onderwijsrichting vastgesteld worden. Daardoor is
+      het aantal onbekenden op onderwijsrichting licht afgenomen.
+
+      Wijzigingen per 17 augustus 2022:
+      Geen, dit is een nieuwe tabel. Deze tabel is samengesteld op basis van de Enquête
+      Beroepsbevolking (EBB). Vanwege wijzigingen in het onderzoeksdesign en de vragenlijst van de
+      EBB zijn de cijfers over 2021 niet zonder meer vergelijkbaar met de cijfers tot en met 2020.
+      De kerncijfers in deze tabel zijn daarom consistent gemaakt met de (niet-seizoengecorrigeerde)
+      cijfers in de tabel Arbeidsdeelname, kerncijfers seizoengecorrigeerd (zie paragraaf 4), waarin
+      de uitkomsten voor de periode 2013-2020 zijn herberekend om aan te sluiten op de uitkomsten
+      vanaf 2021. Bij verdere detaillering van de uitkomsten naar baan- en persoonskenmerken kunnen
+      er van 2020 op 2021 desondanks verschillen zijn als gevolg van de nieuwe methode.
+
+      Wanneer komen er nieuwe cijfers?
+      Nieuwe cijfers worden gepubliceerd in november 2025."""@nl ;
+  dc:conformsTo <http://data.europa.eu/eli/reg_impl/2023/138/oj> ;
+  dcat:theme <http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap> ;
+  dc:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/QUARTERLY> ;
+  dc:identifier "https://opendata.cbs.nl/ODataApi/OData/85313NED" ;
+  ns1:sourceCatalog <https://opendata.cbs.nl/ODataCatalog/> ;
+  ns2:hvdCategory <http://data.europa.eu/bna/c_e1da4e07> ;
+  ns1:status <http://data.overheid.nl/status/beschikbaar> ;
+  dc:publisher <http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek> ;
+  dc:title "Bevolking; hoogstbehaald onderwijsniveau en onderwijsrichting"@nl ;
+  dc:modified "2025-08-14T02:00:00"^^xsd:datetime ;
+  dc:license <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
+  dcat:distribution [
+    a dcat:Distribution ;
+    ns1:distributionType <https://data.overheid.nl/distributiontype/webservice> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/deed.nl> ;
+    dcat:downloadURL <https://opendata.cbs.nl/ODataFeed/OData/85313NED> ;
+    dc:issued "2025-08-14T05:09:15"^^xsd:datetime ;
+    dc:title "Feed"@nl ;
+    dc:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dc:description """Onderwijsniveau onderwijsrichting bevolking
+          naar geslacht en leeftijd, High Value Dataset – Statistiek"""@nl ;
+    dcat:accessURL <https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85313NED/table> ;
+    dcat:accessService <https://data.exampleMS.gov/id/data/1T2p3o4B-dataservice-WMS>
+  ], [
+    a dcat:Distribution ;
+    dcat:downloadURL <https://opendata.cbs.nl/ODataApi/OData/85313NED> ;
+    dc:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcat:accessURL <https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85313NED/table> ;
+    dc:description """Onderwijsniveau onderwijsrichting bevolking
+          naar geslacht en leeftijd, High Value Dataset – Statistiek"""@nl ;
+    dc:issued "2025-08-14T05:09:15"^^xsd:datetime ;
+    dc:title "API"@nl ;
+    ns1:distributionType <https://data.overheid.nl/distributiontype/webservice> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0/deed.nl>
+  ] ;
+  dcat:landingPage <https://opendata.cbs.nl/statline/portal.html?_la=nl&_catalog=CBS&tableId=85313NED> ;
+  dc:creator <http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek> .
+
+<https://data.exampleMS.gov/id/data/1T2p3o4B-dataservice-WMS>
+  a dcat:DataService ;
+  dc:title "Naam van de dataservice"@nl ;
+  dc:accessRights <http://publications.europa.eu/resource/authority/access-right/PUBLIC> ;
+  dc:conformsTo <https://spec.openapis.org/oas/v3.1.0.html>, <http://www.opengis.net/def/serviceType/ogc/wms> ;
+  dcat:contactPoint [
+    a vcard:Kind ;
+    vcard:fn "Mijn Organisatie"@nl, "My Organization"@en ;
+    vcard:hasEmail <mailto:opendata@mijnorganisatie.nl> ;
+    vcard:hasURL "http://mijnorganisatie.org/" ;
+    vcard:organization-name "Mijn Organisatie"@nl, "My Organization"@en
+  ] ;
+  dc:description "beschrijving van de dataservice"@nl ;
+  dcat:endpointDescription <https://api.standaarden.overheid.nl/v1/openapi.json> ;
+  dcat:endpointURL <https://api.standaarden.overheid.nl/v1> ;
+  dc:identifier "https://data.exampleMS.gov/id/data/1T2p3o4B-dataservice-WMS" ;
+  dc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.nl> ;
+  dc:publisher <http://identifier.overheid.nl/tooi/id/gemeente/gm0344> ;
+  dcat:theme <http://publications.europa.eu/resource/authority/data-theme/EDUC> .

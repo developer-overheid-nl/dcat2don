@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:donl="https://data.overheid.nl/dcat.rdf#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:v="http://www.w3.org/2006/vcard/"
+>
+  <rdf:Description
+    rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.distribution.1">
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution" />
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl" />
+    <dcat:downloadURL rdf:resource="https://opendata.cbs.nl/ODataFeed/OData/85313NED" />
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2025-08-14T05:09:15</dct:issued>
+    <dct:title xml:lang="nl">Feed</dct:title>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ATOM" />
+    <dct:description xml:lang="nl">Onderwijsniveau onderwijsrichting bevolking
+      naar geslacht en leeftijd, High Value Dataset – Statistiek</dct:description>
+    <dcat:accessURL rdf:resource="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85313NED/table" />
+  </rdf:Description>
+  <rdf:Description
+    rdf:about="https://data.overheid.nl/dataset/31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting">
+    <dcat:keyword xml:lang="nl">Hoogwaardige dataset - EU</dcat:keyword>
+    <dct:accessRights
+      rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC" />
+    <dcat:contactPoint
+      rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.contactPoint" />
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/NLD" />
+    <dct:description xml:lang="nl">Deze tabel bevat cijfers over de onderwijsrichting van het hoogst
+      behaald onderwijsniveau van de bevolking van 15 tot 90 jaar in Nederland, met uitzondering van
+      personen in inrichtingen, instellingen en tehuizen (institutionele bevolking).
+      De cijfers zijn afkomstig van de Enquête Beroepsbevolking (EBB).
+
+      Gegevens beschikbaar vanaf: 2013
+
+      Status van de cijfers:
+      De cijfers in deze tabel zijn definitief.
+
+      Wijzigingen per 14 augustus 2025:
+      De cijfers over het 2e kwartaal 2025 zijn toegevoegd.
+
+      Wijzigingen per 15 november 2022:
+      Van een aantal respondenten kon alsnog de onderwijsrichting vastgesteld worden. Daardoor is
+      het aantal onbekenden op onderwijsrichting licht afgenomen.
+
+      Wijzigingen per 17 augustus 2022:
+      Geen, dit is een nieuwe tabel. Deze tabel is samengesteld op basis van de Enquête
+      Beroepsbevolking (EBB). Vanwege wijzigingen in het onderzoeksdesign en de vragenlijst van de
+      EBB zijn de cijfers over 2021 niet zonder meer vergelijkbaar met de cijfers tot en met 2020.
+      De kerncijfers in deze tabel zijn daarom consistent gemaakt met de (niet-seizoengecorrigeerde)
+      cijfers in de tabel Arbeidsdeelname, kerncijfers seizoengecorrigeerd (zie paragraaf 4), waarin
+      de uitkomsten voor de periode 2013-2020 zijn herberekend om aan te sluiten op de uitkomsten
+      vanaf 2021. Bij verdere detaillering van de uitkomsten naar baan- en persoonskenmerken kunnen
+      er van 2020 op 2021 desondanks verschillen zijn als gevolg van de nieuwe methode.
+
+      Wanneer komen er nieuwe cijfers?
+      Nieuwe cijfers worden gepubliceerd in november 2025.</dct:description>
+    <dcat:keyword xml:lang="nl">HVD</dcat:keyword>
+    <dct:conformsTo rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj" />
+    <dcat:theme rdf:resource="http://standaarden.overheid.nl/owms/terms/Onderwijs_en_wetenschap" />
+    <dct:accrualPeriodicity
+      rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY" />
+    <dct:identifier>https://opendata.cbs.nl/ODataApi/OData/85313NED</dct:identifier>
+    <donl:sourceCatalog rdf:resource="https://opendata.cbs.nl/ODataCatalog/" />
+    <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_e1da4e07" />
+    <donl:status rdf:resource="http://data.overheid.nl/status/beschikbaar" />
+    <dct:publisher
+      rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek" />
+    <dct:title xml:lang="nl">Bevolking; hoogstbehaald onderwijsniveau en onderwijsrichting</dct:title>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2025-08-14T02:00:00</dct:modified>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl" />
+    <dcat:distribution
+      rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.distribution.1" />
+    <dcat:landingPage
+      rdf:resource="https://opendata.cbs.nl/statline/portal.html?_la=nl&amp;_catalog=CBS&amp;tableId=85313NED" />
+    <dcat:distribution
+      rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.distribution.0" />
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset" />
+    <dct:creator
+      rdf:resource="http://standaarden.overheid.nl/owms/terms/Centraal_Bureau_voor_de_Statistiek" />
+  </rdf:Description>
+  <rdf:Description
+    rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.distribution.0">
+    <dcat:downloadURL rdf:resource="https://opendata.cbs.nl/ODataApi/OData/85313NED" />
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON" />
+    <dcat:accessURL rdf:resource="https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85313NED/table" />
+    <dct:description xml:lang="nl">Onderwijsniveau onderwijsrichting bevolking
+      naar geslacht en leeftijd, High Value Dataset – Statistiek</dct:description>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#datetime">2025-08-14T05:09:15</dct:issued>
+    <dct:title xml:lang="nl">API</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution" />
+    <donl:distributionType rdf:resource="https://data.overheid.nl/distributiontype/webservice" />
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.nl" />
+  </rdf:Description>
+  <rdf:Description
+    rdf:nodeID="dataset.31047-bevolking--hoogstbehaald-onderwijsniveau-en-onderwijsrichting.contactPoint">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/Kind" />
+    <v:fn xml:lang="nl">Centraal Bureau voor de Statistiek</v:fn>
+    <v:email>mailto:infoservice@cbs.nl</v:email>
+  </rdf:Description>
+</rdf:RDF>
