@@ -1,0 +1,45 @@
+publiccodeYmlVersion: "0.5"
+name: DCAT naar API-register
+url: https://github.com/developer-overheid-nl/dcat2don
+softwareType: standalone/other
+developmentStatus: beta
+
+platforms:
+  - linux
+
+description:
+  nl:
+    shortDescription: >-
+      Tool om DCAT-AP-NL 3.0 metadata om te zetten naar het formaat van
+      het Nederlandse API-register.
+    longDescription: |
+      DCAT naar API-register is een Node.js-tool die RDF/XML-bestanden in
+      het DCAT-AP-NL 3.0-formaat omzet naar het formaat van het
+      Nederlandse API-register (developer.overheid.nl).
+
+      De tool valideert of de verplichte velden aanwezig zijn, waaronder
+      een TOOI-identifier als dct:publisher, een geldige OAS-verwijzing
+      en vCard-contactinformatie. Vervolgens worden de gegevens omgezet
+      naar het invoerformaat van het API-register.
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Geonovum
+
+intendedAudience:
+  countries:
+    - NL
+  scope:
+    - government
+
+localisation:
+  availableLanguages:
+    - nl
+  localisationReady: false
+
+maintenance:
+  type: internal
+
+  contacts:
+    - name: developer.overheid.nl
+      affiliation: developer.overheid.nl
